@@ -1,22 +1,27 @@
 fun main() {
-    val secondName : String = "sindet"
-    val fullName : String = "sarah" + secondName
+    val secondName: String = "sindet"
+    val fullName: String = "sarah" + secondName
     println(fullName)
 
     var age: Int = 28
     println(age)
 
-    var phoneNumber: String ="0721406307"
+    var phoneNumber: String = "0721406307"
     println(phoneNumber)
 
-    var weight:Double = 50.5
-    println(weight)
+    var weight: Double = 50.5
+    println("$weight kgs")
 
-    var citizen:Boolean = true
-    print(citizen)
+    var citizenship = readLine()
 
-
-
+    if (citizenship=="Kenyan") {
+        println("true")
+    }
+    else{
+        println("false")
+    }
 }
+
+
 
 
