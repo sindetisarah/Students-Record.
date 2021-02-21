@@ -6,12 +6,14 @@ data class Student(val name:String,
                    var citizen:Boolean)
 
 fun main(args:Array<String>) {
-    val stu=Student("sarah sindet",
+    val stu=Student(
+        "sarah sindet",
         23,
         "0721406307",
         50.5,
         true)
-    val stu2=Student("mercy omondi",
+    val stu2=Student(
+        "mercy omondi",
         28,
         "0721406307",
         50.6,
