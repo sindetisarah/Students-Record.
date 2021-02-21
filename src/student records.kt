@@ -12,9 +12,9 @@ fun main() {
     var weight: Double = 50.5
     println("$weight kgs")
 
-    var citizenship = readLine()
+    var citizen = readLine()
 
-    if (citizenship=="Kenyan") {
+    if (citizen=="Kenyan") {
         println("true")
     }
     else{
