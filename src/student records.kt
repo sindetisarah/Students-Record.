@@ -1,25 +1,18 @@
-fun main() {
-    val secondName: String = "sindet"
-    val fullName: String = "sarah" + secondName
-    println(fullName)
 
-    var age: Int = 28
-    println(age)
+data class Student(val name:String,
+                   val age:Int, val phoneNumber:String,
+                   val weight:Double,
+                   val citizen:Boolean)
 
-    var phoneNumber: String = "0721406307"
-    println(phoneNumber)
+fun main(args:Array<String>) {
+    val stu=Student("sarah",23,"0721406307",50.5,true)
 
-    var weight: Double = 50.5
-    println("$weight kgs")
 
-    var citizen = readLine()
-
-    if (citizen=="Kenyan") {
-        println("true")
-    }
-    else{
-        println("false")
-    }
+    println("Stud name is:${stu.name}")
+    println("Stud weight is:${stu.weight} kgs")
+    println("Stud age is:${stu.age}")
+    println("Stud phoneNumber is:${stu.phoneNumber}")
+    println("Valid kenyan citizen:${stu.citizen}")
 }
 
 
